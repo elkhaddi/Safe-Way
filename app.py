@@ -15,7 +15,7 @@ app = Flask(__name__,template_folder="client/build", static_folder="client/build
 
 app.config['SECRET_KEY'] = 'secret'
 CORS(app)
-app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://postgres:root@localhost:5432/securityApp"
+app.config['SQLALCHEMY_DATABASE_URI'] = "postgres://pvjyzcdaujsvvu:4d41a14da52156f8d15ab9384b7f2f638ef3a6293232712c20556688c7877b54@ec2-3-234-131-8.compute-1.amazonaws.com:5432/d7bn57hb4bh7br"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 
 # mail config
